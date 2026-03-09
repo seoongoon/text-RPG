@@ -37,7 +37,7 @@ body {
 }
 
 
-/* 시작 화면 이미지 (사용 안 해도 무방) */
+/* 시작 화면 이미지*/
 #start-screen img{
 
     width:300px; /* 이미지 크기 */
@@ -71,5 +71,11 @@ button{
     font-size: 16px; /* 버튼 글자 크기 */
 
     cursor: pointer; /* 마우스 올리면 커서 변경 */
+}
 
+
+/* 게임 화면 이미지 */
+#game-screen img{
+    width:500px; /* 이미지 크기 */
+    margin-bottom:20px;
 }
