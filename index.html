@@ -3,23 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <title>Text RPG</title>
+
+<!-- CSS 파일 연결 -->
 <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
+<!-- 시작 화면 -->
 <div id="start-screen">
-<h1>웹 텍스트 RPG</h1>
-<p>모험을 시작하시겠습니까?</p>
 
-<button id="startBtn">게임 시작</button>
+    <!-- 게임 제목 -->
+    <h1>웹 텍스트 RPG</h1>
+
+    <!-- 시작 안내 문구 -->
+    <p>모험을 시작하시겠습니까?</p>
+
+    <!-- 게임 시작 버튼 -->
+    <button id="startBtn">게임 시작</button>
+
 </div>
 
+
+<!-- 게임 화면 (처음에는 숨김 상태) -->
 <div id="game-screen" style="display:none;">
-<h2>마을</h2>
-<p>당신은 작은 마을에 도착했습니다.</p>
+
+    <!-- 현재 위치 제목 -->
+    <h2>마을</h2>
+
+    <!-- 상황 설명 -->
+    <p>당신은 작은 마을에 도착했습니다.</p>
+
 </div>
 
+
+<!-- 게임 로직 JavaScript 연결 -->
 <script src="js/game.js"></script>
 
 </body>
